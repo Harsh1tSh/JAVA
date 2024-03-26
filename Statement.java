@@ -22,5 +22,8 @@ public class Statement {
             System.out.println("I don't care anymore");
         }
 
+        String test = (f > s) ? "Second value is the smallerr" : "First value is smaller";
+        System.out.println(test);
+
     }
 }
